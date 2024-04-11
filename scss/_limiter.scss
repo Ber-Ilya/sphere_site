@@ -1,0 +1,35 @@
+.limiter{
+    margin-top: 80px;
+    @media only screen and (max-width: 1023px) {margin-top: 64px;}
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        @media only screen and (max-width: 1439px) {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    h4{
+        font-size: 20px;
+        color: #212121;
+        font-family: g-m;
+    }
+    p{
+        font-size: 16px;
+        color: #4c4c4c;
+    }
+
+    img{
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+}

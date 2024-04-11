@@ -1,0 +1,50 @@
+.services{
+    margin-top: 80px;
+    .grid{
+        margin-top: 40px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        @media only screen and (max-width: 1023px) {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+        row-gap: 26px;
+
+        padding: 30px 36px;
+        border-radius: 16px;
+        background: #F5F5F6;
+
+        h4{
+            font-size: 28px;
+            color: #1B1B1B;
+            font-family: g-m;
+        }
+        ul{
+            display: grid;
+            row-gap: 14px;
+            li{
+                display: flex;
+                column-gap: 12px;
+                font-size: 16px;
+                align-items: center;
+                color: #656565;
+                font-family: g-m;
+            }
+        }
+    }
+
+    .button{
+        margin-top: auto;
+        display: flex;
+        justify-content: start;
+    }
+}
