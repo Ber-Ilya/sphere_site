@@ -1,8 +1,15 @@
 .advantages{
     margin-top: 80px;
-
+    @media only screen and (max-width: 767px) {
+        margin-top: 64px;
+    }
     h3{
         text-align: center;
+        @media only screen and (max-width: 767px) {
+            font-size: 20px;
+            line-height: 24px;
+            text-align: left;   
+        }
     }
     .grid{
         margin-top: 40px;
@@ -13,6 +20,9 @@
         column-gap: 20px;
         @media only screen and (max-width: 1439px) {
             grid-template-columns: 1fr 1fr;
+        }
+        @media only screen and (max-width: 767px) {
+            grid-template-columns: 1fr;
         }
     }
     
@@ -25,13 +35,22 @@
         row-gap: 20px;
         display: flex;
         flex-direction: column;
-
+        @media only screen and (max-width: 767px) {
+            padding: 16px;  
+            border-radius: 12px;
+            row-gap: 14px; 
+        }
         img{
             margin-bottom: 40px;
 
             width: 56px;
             height: 56px;
             object-fit: contain;
+            @media only screen and (max-width: 767px) {
+                margin-bottom: 16px;
+                width: 42px;
+                height: 42px;
+            }
         }
     }
 
@@ -39,10 +58,17 @@
         font-size: 20px;
         color: #212121;
         font-family: g-m;
+        @media only screen and (max-width: 767px) {
+            font-size: 16px;   
+        }
+
     }
     p{
         font-size: 16px;
         color: #4c4c4c;
+        @media only screen and (max-width: 767px) {
+            font-size: 14px;   
+        }
     }
     &.__change{
         h3{
@@ -54,6 +80,10 @@
             font-size: 20px;
             color: #1B1B1B;
             max-width: 700px;
+            @media only screen and (max-width: 767px) {
+                font-size: 16px;
+                margin-top: 16px;
+            }
         }
     }
 
@@ -63,6 +93,11 @@
                 padding: 16px 0;
                 width: 100%;
                 font-size: 20px;
+
+                @media only screen and (max-width: 767px) {
+                    font-size: 16px;
+                    padding: 10px 0;
+                }
             }
         }
 

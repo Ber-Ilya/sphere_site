@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Сфера</title>
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="content header__content"> 
+
+                <div class="header-content__basic">
+                    <div class="logo"><a href="index.html"><img src="images/sferaLogo.svg" alt="imgLogo"></a></div>
+                    <ul class="navigation">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="case.html">Примеры работ</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        
+                    </ul>
+                    <div class="button">
+                        <button onclick="popupSetting()">Заказать звонок</button>
+                        <div class="burger__menu" onclick="toggleBurgerClass()"><img src="images/burgerMenu.svg" alt="burger"></div>
+                    </div>
+                </div>
+
+                <div class="burger">
+                    <div class="burger__content">
+                        <div class="burger-content__head">
+                            <div class="logo"><a href="index.html"><img src="images/sferaLogo.svg" alt="imgLogo"></a></div>
+                            <button class="burger-content__close" onclick="toggleBurgerClass()"><img src="images/closebug.svg" alt="close"></button>
+                        </div>
+                        <ul class="navigation">
+                            <li><a href="index.html" onclick="toggleBurgerClass()">Главная</a></li>
+                            <li><a href="services.html" onclick="toggleBurgerClass()">Услуги</a></li>
+                            <li><a href="case.html" onclick="toggleBurgerClass()">Примеры работ</a></li>
+                            <li><a href="reviews.html" onclick="toggleBurgerClass()">Отзывы</a></li>
+                            <li><a href="blog.html" onclick="toggleBurgerClass()">Блог</a></li>
+                            <li><a href="#contact" onclick="toggleBurgerClass()">Контакты</a></li>
+                        </ul>
+                        <p class="time">Пн-СБ с 9:00-18:00</p>
+                        <div class="phone">
+                            <div class="vector"><img src="images/vector/phonelog.svg" alt="phoneIcon"></div>
+                            <a href="tel:+7 (800) 333-85-11">+7 (800) 333-85-11</a>
+                        </div>
+                        <div class="social">
+                            <p>Мы онлайн:</p>
+                            <div class="social__list">
+                                <div class="vector"><a href="">
+                                    <img src="images/vector/logos_whatsapp-icon.svg" alt="vectorWhatsapp">
+                                    <img src="images/vector/logos_whatsappHover.svg" alt="vectorWhatsapp">
+                                </a></div>
+                                <div class="vector"><a href="">
+                                    <img src="images/vector/logos_telegram.svg" alt="vectorTelegram">
+                                    <img src="images/vector/logos_telegramHover.svg" alt="vectorTelegram">
+                                </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner _half">
+            <img class="background" src="images/case/LooperGroup_3.svg" alt="img">
+            <div class="content">
+                <div class="info-block">
+                    <h3>Часто задаваемые вопросы</h3>
+                </div>
+            </div>
+        </section> 
+        <section id="faq" class="faq">
+            <div class="content">
+                <!-- <h3>Часто задаваемые вопросы</h3> -->
+                <div class="grid">
+                    <details>
+                        <summary><h5>Какие услуги предоставляет ваше архитектурное бюро?</h5> <img src="images/vector/shapePlus2.svg" alt="g"></summary>
+                        <p>
+                            Рассмотрим два частовстречающихся случая:
+                           <p>1. Без проведения перепланироки. 
+                                Необходимо разработать технический план, в котором выделить помещение(я), и далее подать заявление в Росррестр. Сроки разработки технического плана от 2-х рабочих дней, срок рассмотрения заявления Росресстром 7 рабочих дней. После этого вы получаете выписки из ЕГРН.</p> 
+                           <p> 2.1. Если перепланировка предполагается, но ещё не сделана по факту.
+                                Для данного случая, необходимо добавить в выше перечисленный пакет документов проект перепланировки и техническое заключение, а также всю разрешительную документацию на проведение перепланировки, например, Распоряжение МЖИ, Акт о завершённом переустройстве и т.д.
+                                Обратитесь к нам и мы бесплатно подскажем, как реализовать данное решение и получить выписку из ЕГРН.</p>
+                           <p> 2.2. Если перепланировка уже выполнена, необходимо таже добавить в подаваемый пакет документов всю разрешительную документацию, и заменить проект перепланировки и техническое заключение,
+                            на техническое заключение о допустимости и безопасности ранее выполненных работ. В этом случае, мы тоже готовы вам помочь с внесением изменений в выписку из ЕГРН.</p>
+                     
+                    </details>
+                    <details>
+                        <summary><h5>Какие основные этапы сотрудничества с вашим бюро?</h5> <img src="images/vector/shapePlus2.svg" alt="g"></summary>
+                        <p>
+                            В нашем законодательстве назначение помещения "апартаменты" не предусмотрено. В связи с этим нет статьи закона, которая узаканивает действия с подобными помещениями. 
+                            Поэтому все государственные инстанции рассматривают апартаменты, как нежилое помещение, в которое нельзя прописаться, но которое годно для временного проживания. Специалисты нашей компании помуг вам в решение этого сложного вопроса.
+                        </p>
+                    </details>
+                    <details>
+                        <summary><h5>Сколько времени занимает процесс разработки проекта?</h5> <img src="images/vector/shapePlus2.svg" alt="g"></summary>
+                        <p>
+                            Необходимо детально изучить Приостановление, исправить ошибки в техническом плане и подать заново. По данному вопросу лучше проконсультироваться с нашими юристами и/или кадастровыми инженерами.
+                        </p>
+                    </details>
+                    <details>
+                        <summary><h5>Какой ваш опыт работы в сфере архитектуры?</h5> <img src="images/vector/shapePlus2.svg" alt="g"></summary>
+                        <p>
+                            В соответствии с нашим законодательством, это не возможно. Технический план и другие документы (при необходимости) являются юридическим основанием для внесения записи в ЕГРН. Специалисты нашей компании помогут вам собрать необходимый пакет документов для всех случаев внесения изменений и изменения записей в ЕГРН.
+                        </p>
+                    </details>
+                    <details>
+                        <summary><h5>Как можно начать сотрудничество с вашим бюро?</h5> <img src="images/vector/shapePlus2.svg" alt="g"></summary>
+                        <p>
+                            В соответствии с нашим законодательством, это не возможно. Технический план и другие документы (при необходимости) являются юридическим основанием для внесения записи в ЕГРН. Специалисты нашей компании помогут вам собрать необходимый пакет документов для всех случаев внесения изменений и изменения записей в ЕГРН.
+                        </p>
+                    </details>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+        <div class="popup _popup-form">
+            <div class="popup__content">
+            <div class="popup__close" onclick="popupSetting()"><img src="images/vector/close.svg" alt="close"></div>
+                <h2 class="popup__title">Оставить заявку</h2>
+                <p class="popup__description">Оставьте заявку и мы кронсультируем вас по всем вопросам</p>
+                <form action="sendmail2.php" method="post" class="myForm">
+                    <div class="form__group"> 
+                        <label for="">Имя</label>
+                        <input type="text" class="form__input" id="user-name" name="user-name" required placeholder="Ваше имя">
+                    </div>
+                    <div class="form__group">
+                        <label for="">Телефон</label>
+                        <input type="tel" class="form__input phone" id="user-phone" name="user-phone" required placeholder="+7 (---) --- -- -- ">
+                    </div>
+                  
+                    <div class="button form__button">
+                        <button type="submit">Оставить заявку</button>
+                        <span>Я соглашаюсь с условиями <span><a href="#">Политики обработки персональных данных</a></span> и <span><a href="#">Публичной офертой</a></span></span>
+                    </div>
+                </form>
+
+
+            </div>
+        </div> 
+        <div class="popup __popup-thank">
+            <div class="popup__content">
+            <div class="popup__close" onclick="popupSetting()"><img src="images/closebug.svg" alt="close"></div>
+                <h2 class="popup__title">Спасибо!</h2>
+                <p class="popup__description">Ваша заявка успешно отправлена. 
+                    Мы свяжемся с вами в ближайшее время.</p>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="content">
+                <div class="grid">
+                    <div class="logo"><a href="index.html"><img src="images/vector/LogoWhite.svg" alt="g"></a></div>
+                    <ul class="navigation">
+                        <li><a href="#about">Преимущества</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#second">Проект перепланировки</a></li>
+                        <li><a href="#faq">ЧаВо</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                    <p class="phone"><a href="tel:+7 (800) 333-85-11">+7 (800) 333-85-11</a></p>
+                    <div class="social__list">
+                        <div class="vector"><a href="">
+                            <img src="images/vector/logos_whatsappHover.svg" alt="vectorWhatsapp">
+                        </a></div>
+                        <div class="vector"><a href="">
+                            <img src="images/vector/logos_telegramHover.svg" alt="vectorTelegram">
+                        </a></div>
+                    </div>
+                </div>
+                <h6>г. Москва, ул. Свободы д. 14 пом. II</h6>
+                <div class="item">
+                    <p>© СФЕРА 2023.  Все права защищены</p>
+                    <p><a href="#rules">Пользовательское соглашение</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+
+    <script src="js/popup.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/formFormat.js"></script>
+    
+    <script src="js/swiperDuble.js"></script>
+    <!-- <script src="js/animationProject.js"></script> -->
+    <script src="js/imageZoom.js"></script>
+
+</html>

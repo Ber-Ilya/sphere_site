@@ -21,6 +21,9 @@
             @media only screen and (max-width: 1023px) {
                 height: 390px;
             }
+            @media only screen and (max-width: 767px) {
+                height: 310px;
+            }
             .swiper-pagination-bullet{
                 width: 14px;
                 height: 14px;
@@ -44,6 +47,10 @@
                 @media only screen and (max-width: 1023px) {
                     height: 320px;
                 }
+                @media only screen and (max-width: 767px) {
+                    height: 240px;
+                    border-radius: 12px;
+                }
             }
             p{
                 left: 50%;
@@ -56,6 +63,10 @@
                 bottom: 42px;
                 @media only screen and (max-width: 1023px) {
                     bottom: 34px;
+                }
+
+                @media only screen and (max-width: 767px) {
+                    font-size: 16px;
                 }
             }
         }

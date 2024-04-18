@@ -48,11 +48,18 @@
         img{
             object-fit: contain;
         }
+        @media only screen and (max-width: 767px) {
+            width: 42px;
+            height: 42px;
+        }
     }
 
     h4{
         font-family: g-m;
         font-size: 22px;
+        @media only screen and (max-width: 767px) {
+            font-size: 18px;
+        }
     }
     
     ul{
