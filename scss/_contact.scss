@@ -59,6 +59,9 @@
             grid-template-columns: 1fr 1fr;
             row-gap: 20px;
             column-gap: 20px;
+            @media only screen and (max-width: 767px) {
+                grid-template-columns: 1fr;   
+            }
         }
         span{
             font-size: 14px;

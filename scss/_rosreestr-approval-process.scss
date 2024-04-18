@@ -5,11 +5,19 @@
         margin-top: 20px;
         max-width: 928px;
         font-size: 20px;
+
+        @media only screen and (max-width: 767px) {
+            font-size: 16px;
+        }
     }
     h4{
         font-size: 22px;
         font-family: g-m;
         margin-top: 32px;
+        @media only screen and (max-width: 767px) {
+            font-size: 18px;
+            margin-top: 24px;
+        }
     }
    
     &.cv-4{
@@ -17,6 +25,9 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
             @media only screen and (max-width: 1023px) {
                 grid-template-columns: 1fr 1fr;
+            }
+            @media only screen and (max-width: 767px) {
+                grid-template-columns: 1fr;
             }
             p{
                 color: #212121;
@@ -27,6 +38,9 @@
        &.__drop{
         .row{
             grid-template-columns: 1fr 1fr;
+            @media only screen and (max-width: 767px) {
+                grid-template-columns: 1fr;
+            }
         }
         
        }
@@ -48,9 +62,15 @@
         @media only screen and (max-width: 1023px) {
             grid-template-columns: 1fr 1fr;
         }
+        @media only screen and (max-width: 767px) {
+            grid-template-columns: 1fr;
+        }
         p{
             font-size: 20px;
             font-family: g-m;
+            @media only screen and (max-width: 767px) {
+                font-size: 16px;
+            }
         }
 
         .item{
@@ -66,6 +86,10 @@
                 width: 80px;
                 height: 80px;
                 object-fit: contain;
+                @media only screen and (max-width: 767px) {
+                    width: 64px;
+                    height: 64px;
+                }
             }
         }
     }
@@ -76,5 +100,10 @@
         font-size: 20px;
 
         margin-top: 40px;
+
+        @media only screen and (max-width: 767px) {
+            margin-top: 24px;
+            font-size: 16px;
+        }
     }
 }

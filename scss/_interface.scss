@@ -114,4 +114,8 @@ h3{
     //     font-size: 22px;
     //     line-height: 24px;
     // }
+    @media only screen and (max-width: 767px) {
+        font-size: 20px;   
+        line-height: 24px;
+    }
 }

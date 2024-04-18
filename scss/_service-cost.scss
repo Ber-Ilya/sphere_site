@@ -42,6 +42,9 @@
         @media only screen and (max-width: 1023px) {
             grid-template-columns: 1fr 1fr;
         }
+        @media only screen and (max-width: 767px) {
+            grid-template-columns: 1fr;
+        }
     }
 
     .item{
@@ -59,12 +62,18 @@
 
             margin: 32px 0;
             background: #E7E7E7;
+            @media only screen and (max-width: 767px) {
+                margin: 14px 0;
+            }
         }
 
         h4{
             font-size: 20px;
             color: #1B1B1B;
             font-family: g-m;   
+            @media only screen and (max-width: 767px) {
+                font-size: 18px;
+            }
         }
 
         p{
@@ -82,6 +91,11 @@
         button{
             font-size: 20px;
             padding: 14px 32px;
+            @media only screen and (max-width: 767px) {
+                width: 100%;
+                padding: 10px 0;
+                font-size: 16px;
+            }
         }
     }
 }

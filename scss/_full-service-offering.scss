@@ -18,21 +18,31 @@
         @media only screen and (max-width: 1023px) {
             grid-template-columns: 1fr;
             margin-top: 24px;
+
+            padding: 24px 16px;
         }
 
         p{
             font-size: 20px;
             line-height: 26px;
+            @media only screen and (max-width: 767px) {
+                font-size: 16px;
+                line-height: 20px;
+            }
         }
         .vector{
             position: absolute;
             right: 0;
             bottom: 0;
-            top: 0;
+            top: 10px;
 
             width: 210px;
             height: 198px;
             object-fit: contain;
+            @media only screen and (max-width: 767px) {
+                width: 180px;
+                height: 140px;
+            }
 
         }
     }
@@ -56,6 +66,9 @@
             h4{
                 font-size: 22px;
                 font-family: g-m;
+                @media only screen and (max-width: 767px) {
+                    font-size: 18px;
+                }
             }
         }
 
@@ -64,11 +77,18 @@
             height: 368px;
             border-radius: 20px;
             object-fit: cover;
+            @media only screen and (max-width: 767px) {
+                height: 200px;
+                border-radius: 14px;
+            }
         }
         .button{    
             button{
                 padding: 16px 0;
                 width: 100%;
+                @media only screen and (max-width: 767px) {
+                    padding: 10px 0;
+                }
             }
         }
     }
