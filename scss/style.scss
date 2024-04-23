@@ -70,7 +70,7 @@ $topSectionwindowTablet: 72px;
 // Настройка интерфейса экрана
 
 $windowNotebook_L: 1400px;
-$windowNotebook: 960px;
+$windowNotebook: 980px;
 $windowTablet: 650px; 
 // change
 $windowMobile: 344px+120px;
@@ -125,3 +125,5 @@ $windowMobile: 344px+120px;
 @import 'not-found-page';
 
 @import 'thank';
+
+@import 'service-dropmenu';
