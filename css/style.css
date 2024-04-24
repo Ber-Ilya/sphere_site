@@ -475,6 +475,52 @@ h3 span {
   height: 384px;
   position: absolute;
 }
+.contact.__nomination-two {
+  background: #EA3838;
+}
+.contact.__nomination-two * {
+  color: #fff;
+}
+.contact.__nomination-two form .row {
+  gap: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.contact.__nomination-two form label {
+  color: #fff;
+}
+.contact.__nomination-two form input {
+  background: transparent;
+  color: #fff;
+  border: unset;
+  border-bottom: 1px solid #fff;
+  padding: 0;
+  padding-bottom: 18px;
+  border-radius: 0;
+}
+.contact.__nomination-two form input::placeholder {
+  color: #fff;
+}
+.contact.__nomination-two .content {
+  display: grid;
+  grid-template-columns: 317px 627px;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 1439px) {
+  .contact.__nomination-two .content {
+    grid-template-columns: 230px 400px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .contact.__nomination-two .content {
+    grid-template-columns: 1fr;
+  }
+}
+.contact.__nomination-two .button button {
+  background: #fff;
+  color: #1B1B1B;
+}
 @media only screen and (max-width: 1023px) {
   .contact {
     margin-top: 60px;
@@ -2531,6 +2577,13 @@ h3 span {
   column-gap: 80px;
   align-items: center;
 }
+@media only screen and (max-width: 1023px) {
+  .rosreestr-project-requirements .content {
+    row-gap: 0;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
 .rosreestr-project-requirements .info-block h3 {
   color: #EA3838;
 }
@@ -2549,11 +2602,23 @@ h3 span {
 .timeline-cost {
   margin-top: 100px;
 }
+@media only screen and (max-width: 1023px) {
+  .timeline-cost {
+    margin-top: 42px;
+  }
+}
 .timeline-cost .row {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 180px 1fr;
   column-gap: 30px;
+}
+@media only screen and (max-width: 1023px) {
+  .timeline-cost .row {
+    row-gap: 0;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
 }
 .timeline-cost .row .vector img {
   width: 100%;

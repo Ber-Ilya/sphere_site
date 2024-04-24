@@ -5,6 +5,8 @@
     @media only screen and (max-width: 1023px) {margin-top: 64px; padding: 64px 0;}
     position: relative;
     overflow: hidden;
+
+   
     &.__dark{
         background: #1B1B1B;
         h3,p{
@@ -24,6 +26,53 @@
         right: 0px;
         height: 384px;
         position: absolute;
+    }
+    &.__nomination-two{
+        background: #EA3838;
+        *{
+            color: #fff;
+        }
+        form{
+            .row{
+                gap: 18px;
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            label{
+                color: #fff;
+            }
+            input{
+                background: transparent;
+                &::placeholder{
+                    color: #fff;
+                }
+                color: #fff;
+                border: unset;
+                border-bottom: 1px solid #fff;
+                padding: 0;
+                padding-bottom: 18px;
+                border-radius: 0;
+            }
+        }
+        .content{
+            display: grid;
+            grid-template-columns: 317px 627px;
+            justify-content: space-between;
+            align-items: center;
+            @media only screen and (max-width: 1439px) {
+                grid-template-columns: 230px 400px;
+            }
+            @media only screen and (max-width: 1023px) {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .button{
+            button{
+                background: #fff;
+                color: #1B1B1B;
+            }
+        }
     }
 
     @media only screen and (max-width: 1023px) {
