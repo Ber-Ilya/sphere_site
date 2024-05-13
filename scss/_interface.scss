@@ -119,3 +119,28 @@ h3{
         line-height: 24px;
     }
 }
+
+
+// .image-container{
+//     transition: .3s; 
+//     &.zoom__active{
+//         z-index: 10;
+//         width: 100%;
+//         height: 100%;
+//         position: fixed;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         inset: 0;
+//         background: #4a4a4a60;
+//         border-radius: unset;
+//         transition: .3s;
+//         img{
+//             transition: .3s;
+//             width: 100%;
+//             height: 100%;
+//             object-fit: contain;
+//             border-radius: 0;
+//         }
+//     }
+// }
