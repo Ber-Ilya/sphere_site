@@ -1,5 +1,5 @@
 .footer{
-    padding: 60px 0;
+    padding: 60px 0 0;
     // margin-top: 100px;
     background: #1B1B1B;
     .content{
@@ -11,75 +11,133 @@
         }
         .item{
             display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 64px 0;
+            margin-top: 64px;
+            border-top: 1px solid #ffffff20;
             opacity: 0.6;
             color: #fff;
             column-gap: 16px;
-            font-size: 12px;
+            font-size: 14px;
             @media only screen and (max-width: 1023px) {
-                flex-direction: column;
+                display: grid;
                 row-gap: 32px;
+            }
+            @media only screen and (max-width: 767px) {
+                row-gap: 24px;
+                padding: 32px 0 64px;
+                margin-top: 32px;
+            }
+        }
+    }
+    ul{
+        display: grid;
+        row-gap: 14px;
+        li{
+            font-size: 14px;
+            line-height: 18px;
+            color: #fff;
+        }
+        @media only screen and (max-width: 1023px) {
+            &:nth-child(3){
+                column-gap: 120px;
+                grid-template-columns: 1fr 1fr;
+                row-gap: 18px;
+                justify-content: space-between;
+
+                grid-column: 2 span;
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            row-gap: 24px;
+            &:nth-child(3){
+                column-gap: unset;
+                grid-template-columns: 1fr;
+                row-gap: 24px;
+                justify-content: unset;
+
+                grid-column: unset;
             }
         }
     }
     .navigation{
-        display: flex;
+        display: grid;
         column-gap: 26px;
-        @media only screen and (max-width: 1439px) {
-          order: 3;
-        }
+        row-gap: 18px;
         @media only screen and (max-width: 767px) {
-            display: none;
+            row-gap: 24px;
         }
         li{
             font-size: 18px; 
             opacity: 1;
             transition: .3s;
             color: #ffffff;
-            &:hover{
-                transition: .3s;
-                color: #3FAB60;
+            a{
+                &:hover{
+                    transition: .3s;
+                    color:#EA3838;
+                }
             }
         }
+        
     }
-    .grid{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        @media only screen and (max-width: 1439px) {
+    .grid{a{
+                &:hover{
+                    transition: .3s;
+                    color:#EA3838;
+                }
+            }
+            
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 64px;
+        
+        h4{
+            font-size: 20px;
+            color: #fff;
+            margin-top: 32px;
+            margin-bottom: -14px;
+        }
+        .phone{
+            display: flex;  
+            align-items: center;
+            column-gap: 8px;
+            
+            img{
+                width: 24px;
+                height: 24px;
+            }
+            a{
+                font-size: 14px;
+            }
+        }
+        .footer-sub__content{
             display: grid;
-            grid-template-columns: 1fr;
-            row-gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 120px;
+            row-gap: 42px;
+            @media only screen and (max-width: 1023px) {
+                grid-template-columns: 1fr 1fr;
+            }
+            @media only screen and (max-width: 767px) {
+                grid-template-columns: 1fr;
+                column-gap: unset;
+                row-gap: 24px;
+            }
         }
-        @media only screen and (max-width: 1023px) {
-            row-gap: 30px;
-        }
+      
     }
     .phone{
         color: #ffffff;
-        @media only screen and (max-width: 1439px) {
-            order: 2;
-        }
     }
-    .phone, h6{
-
-        @media only screen and (max-width: 1023px) {
-            display: flex;
-            column-gap: 8px;
-            align-items: center;
-            &::before{
-                content: "";
-                width: 16px;
-                height: 16px;
-                background: #3FAB60;
-                border-radius: 50%;
-                display: block;
-            }
-        }
-    }
-
     .social__list{
         display: flex;
-        column-gap: 24px;
+        column-gap: 14px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
         @media only screen and (max-width: 1023px) {
            display: none;
         }
