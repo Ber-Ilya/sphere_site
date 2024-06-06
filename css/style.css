@@ -2541,6 +2541,29 @@ h3 span {
     height: 64px;
   }
 }
+.rosreestr-approval-process.cv-3 .row {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media only screen and (max-width: 1223px) {
+  .rosreestr-approval-process.cv-3 .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .rosreestr-approval-process.cv-3 .row {
+    grid-template-columns: 1fr;
+  }
+}
+.rosreestr-approval-process.cv-3 .row p {
+  font-size: 16px;
+  color: #212121;
+  font-family: g-r;
+}
+@media only screen and (max-width: 767px) {
+  .rosreestr-approval-process.cv-3 .row .item {
+    padding: 24px 16px;
+  }
+}
 .rosreestr-approval-process .foot-text {
   max-width: 680px;
   line-height: 24px;
@@ -2739,6 +2762,103 @@ h3 span {
 @media only screen and (max-width: 767px) {
   .about img {
     height: 220px;
+  }
+}
+
+.about-component {
+  background: #1B1B1B;
+  color: #f5f7f9;
+  position: relative;
+  margin-top: 100px;
+}
+@media only screen and (max-width: 1200px) {
+  .about-component {
+    padding: 42px 0;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .about-component {
+    margin-top: 64px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-component {
+    padding-top: 0;
+  }
+}
+.about-component h4 {
+  margin-bottom: 8px;
+  font-size: 36px;
+  font-family: g-m;
+}
+@media only screen and (max-width: 767px) {
+  .about-component h4 {
+    font-size: 20px;
+  }
+}
+.about-component p {
+  font-size: 20px;
+  font-family: g-r;
+}
+@media only screen and (max-width: 767px) {
+  .about-component p {
+    font-size: 16px;
+  }
+}
+.about-component .content {
+  display: grid;
+  grid-template-columns: 500px 630px;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 1439px) {
+  .about-component .content {
+    grid-template-columns: 1fr 0.6fr;
+    column-gap: 120px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-component .content {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
+.about-component .block {
+  display: grid;
+  row-gap: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .about-component .block {
+    order: 2;
+    row-gap: 18px;
+  }
+}
+.about-component .image {
+  height: 584px;
+}
+@media only screen and (max-width: 1439px) {
+  .about-component .image {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-component .image {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-component .image {
+    order: 1;
+  }
+}
+.about-component .image img {
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+}
+@media only screen and (max-width: 1200px) {
+  .about-component .image img {
+    position: relative;
   }
 }
 

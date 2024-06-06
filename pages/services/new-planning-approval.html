@@ -1,0 +1,282 @@
+д*<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../css/swiper-bundle.min.css">
+
+        <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+        <title>Сфера</title>
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="content header__content"> 
+
+                <div class="header-content__basic">
+                    <div class="logo"><a href="../../index.html"><img src="../../images/sferaLogo.svg" alt="imgLogo"></a></div>
+                    <ul class="navigation">
+                        <li><a href="../../index.html">Главная</a></li>
+                        <li><a href="../../services.html">Услуги</a></li>
+                        <li><a href="../../case.html">Примеры работ</a></li>
+                        <li><a href="../../reviews.html">Отзывы</a></li>
+                        <li><a href="../../blog.html">Блог</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        
+                    </ul>
+                    <div class="button">
+                        <button onclick="popupSetting()">Заказать звонок</button>
+                        <div class="burger__menu" onclick="toggleBurgerClass()"><img src="../../images/burgerMenu.svg" alt="burger"></div>
+                    </div>
+                </div>
+
+                <div class="burger">
+                    <div class="burger__content">
+                        <div class="burger-content__head">
+                            <div class="logo"><a href="index.html"><img src="../../images/sferaLogo.svg" alt="imgLogo"></a></div>
+                            <button class="burger-content__close" onclick="toggleBurgerClass()"><img src="../../images/closebug.svg" alt="close"></button>
+                        </div>
+                        <ul class="navigation">
+                            <li><a href="../../index.html" onclick="toggleBurgerClass()">Главная</a></li>
+                            <li><a href="../../services.html" onclick="toggleBurgerClass()">Услуги</a></li>
+                            <li><a href="../../case.html" onclick="toggleBurgerClass()">Примеры работ</a></li>
+                            <li><a href="../../reviews.html" onclick="toggleBurgerClass()">Отзывы</a></li>
+                            <li><a href="../../blog.html" onclick="toggleBurgerClass()">Блог</a></li>
+                            <li><a href="#contact" onclick="toggleBurgerClass()">Контакты</a></li>
+                        </ul>
+                        <p class="time">Пн-СБ с 9:00-18:00</p>
+                        <div class="phone">
+                            <div class="vector"><img src="../../images/vector/phonelog.svg" alt="phoneIcon"></div>
+                            <a href="tel:+7 (800) 333-85-11">+7 (800) 333-85-11</a>
+                        </div>
+                        <div class="social">
+                            <p>Мы онлайн:</p>
+                            <div class="social__list">
+                                <div class="vector"><a href="">
+                                    <img src="../../images/vector/logos_whatsapp-icon.svg" alt="vectorWhatsapp">
+                                    <img src="../../images/vector/logos_whatsappHover.svg" alt="vectorWhatsapp">
+                                </a></div>
+                                <div class="vector"><a href="">
+                                    <img src="../../images/vector/logos_telegram.svg" alt="vectorTelegram">
+                                    <img src="../../images/vector/logos_telegramHover.svg" alt="vectorTelegram">
+                                </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="banner __duble">
+            <div class="content">
+                <div class="info-block">
+                    <h2>Согласование перепланировки </h2>
+                    <p>Поможем в разработке, согласовании и юридическом оформлении перепланировок любой сложности 
+                        с гарантированным результатом.</p>
+                                        <div class="button"><button onclick="popupSetting()">Получить предложение</button></div>
+
+                </div>
+                <div class="image"><img src="../../images/pages/Rectangle 28-4.jpg" alt="img"></div>
+            </div>
+        </section> 
+
+
+        <section class="full-service-offering">
+            <div class="content">
+                <h3>Оказываем <span>полный спектр</span> услуг</h3>
+                <div class="row">
+                    <p>Вам не придется привлекать сторонние фирмы, искать 
+                        подрядчиков. У нас можно заказать проект планировки 
+                        территории, а так же согласование и юридическое 
+                        оформление перепланировок любой сложности с 
+                        гарантированным результатом.
+                    </p>
+                    <img class="vector" src="../../images/pages/sferagorizont.svg" alt="g">
+                </div>
+
+                <div class="grid">
+                    <div class="item">
+                        <img src="../../images/pages/faf2.png" alt="f">
+                        <h4>Проект перепланировки</h4>
+                        <div class="button"><button>Подробнее</button></div>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/faf.png" alt="f">
+                        <h4>Технический план</h4>
+                        <div class="button"><button>Подробнее</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <section class="rosreestr-approval-process cv-3">
+            <div class="content">
+                <h3>Порядок согласования перепланировки</h3>
+                <p>Порядок согласования перепланировки в Москве требует внимательного следования ряду шагов, чтобы обеспечить законность изменений в помещении. Вот основные этапы, которые нужно выполнить:
+                </p>
+                <div class="row">
+                    <div class="item">
+                        <img src="../../images/pages/vec.svg" alt="vector" class="vector">
+                        <h4>Подготовка документации </h4>
+                        <p>Собственник заказывает проект перепланировки, который включает чертежи предполагаемых изменений. Для этого обращаются в специализированное архитектурное или проектное бюро с допуском СРО. Желательно убедиться, что проект соответствует  требованиям законодательства и нормативам безопасности зданий, иначе Мосжилинспекция выпишет отказ в согласовании.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/vec2.svg" alt="vector" class="vector">
+                        <h4>Получение технического паспорта БТИ</h4>
+                        <p>Прежде чем приступить к перепланировке, надо заказать в БТИ технический паспорт квартиры. Этот документ подтвердит текущее состояние помещения и является основанием для дальнейшего согласования планов перепланировки.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/vec3.svg" alt="vector" class="vector">
+                        <h4>Подача заявления в МФЦ или электронном виде</h4>
+                        <p>Собственник подает заявление на перепланировку в МФЦ или через портал госуслуг. К заявлению прилагаются проект перепланировки, технический паспорт БТИ и другие необходимые документы, например, разрешение собрания жильцов многоквартирного дома, если изменения затрагивают общедолевую  собственность.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/vec4.svg" alt="vector" class="vector">
+                        <h4>Рассмотрение документации организациями и инспекциями</h4>
+                        <p>Проект перепланировки и техническое заключение будут рассмотрены городской администрацией, жилищной инспекцией, если потребуется, другими контролирующими органами. На этом этапе может потребоваться дополнительная консультация или уточнение информации.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/vec5.svg" alt="vector" class="vector">
+                        <h4>Получение разрешения на перепланировку</h4>
+                        <p>Если документация в порядке и проект соответствует нормам, собственник получает разрешение на перепланировку. Без этого документа начинать работы нельзя, так как это может привести к штрафам и необходимости восстановления первоначального состояния помещения.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/vec6.svg" alt="vector" class="vector">
+                        <h4>Проведение работ по перепланировке</h4>
+                        <p>После получения всех разрешений собственник может приступить к ремонту и перепланировке. Важно следовать проекту перепланировки, так как отклонения от утвержденного плана могут потребовать повторного согласования.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/vec7.svg" alt="vector" class="vector">
+                        <h4>Оформление акта о завершении переустройства</h4>
+                        <p>По завершении работ необходимо вызвать инсперктора из МЖИ для составления акта о завершении переустройства. Этот документ подтверждает, что работы выполнены в соответствии с утвержденным проектом и законодательством.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/vec8.svg" alt="vector" class="vector">
+                        <h4>Разработка технического плана</h4>
+                        <p>Необходимо заказать технический план у кадастрового инженера состоящим в СРО.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="../../images/pages/vec9.svg" alt="vector" class="vector">
+                        <h4>Регистрация изменений в ЕГРН</h4>
+                        <p>Последний шаг - регистрация изменений в Едином государственном реестре недвижимости (ЕГРН), чтобы законно узаконить внесенные изменения планировки помещения.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+       <section class="about-component">
+            <div class="content">
+                <div class="block">
+                    <h4>СФЕРА</h4>
+                    <p>Компания "СФЕРА" представляет собой архитектурное бюро, 
+                        которое специализируется на предоставлении услуг по разработке 
+                        проектов перепланировки, согласованию необходимых разрешений и 
+                        строительству. </p>
+                    <p>Наши услуги по согласованию перепланировки важны для тех, 
+                        кто стремится узаконить изменения в квартире. СФЕРА гарантирует, 
+                        что процесс перепланировки будет проведен с соблюдением 508-ППМ, чтобы 
+                        избежать будущих правовых споров и других связанных с этим проблем.
+                    </p>
+                </div>
+                <div class="image"><img src="../../images/pages/faf3.png" alt="img"></div>
+            </div>
+       </section>
+
+        <footer class="footer">
+            <div class="content">
+                <div class="grid">
+                    <div class="logo"><a href="index.html"><img src="../../images/vector/LogoWhite.svg" alt="g"></a></div>
+                   
+                    <div class="footer-sub__content">
+                        <ul class="navigation">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="services.html">Все услуги</a></li>
+                            <li><a href="#contact">Контакты</a></li>
+
+                            <h4>Свяжитесь с нами</h4>
+                            <p class="phone"><img src="../../newImage/Phone.svg" alt="ico"><a href="tel:+7 (800) 333-85-11">+7 (800) 333-85-11</a></p>
+                            <div class="social__list">
+                                <div class="vector"><a href="#">
+                                    <img src="../..//newImage/wh.svg" alt="vectorWhatsapp">
+                                </a></div>
+                                <div class="vector"><a href="#">
+                                    <img src="../../newImage/tg.svg" alt="vectorTelegram">
+                                </a></div>
+                            </div>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Проект перепланировки</a></li>
+                            <li><a href="#">Техническое заключение
+                            </a></li>
+                            <li><a href="#">Проектирование склада</a></li>
+                            <li><a href="#">Технический план квартиры</a></li>
+                            <li><a href="#">Технический план нежилого помещения</a></li>
+                            <li><a href="#">Межевой план 
+                            </a></li>
+                            <li><a href="#">Проект реконструкции</a></li>
+                            <li><a href="#">Дизайн проект</a></li>
+                            <li><a href="#">Разрешение на строительство</a></li>
+                            <li><a href="#">Изменение ВРИ</a></li>
+                            <li><a href="#">Разрешение на реконструкцию
+                            </a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Строительство склада</a></li>
+                            <li><a href="#">Водоотведение и канализация</a></li>
+                            <li><a href="#">Отопление и вентиляция
+                            </a></li>
+                            <li><a href="#">Электрооборудование</a></li>
+                            <li><a href="#">Электролаборатория
+                            </a></li>
+                            <li><a href="#">Согласование перепланировки квартиры</a></li>
+                            <li><a href="#">Согласование перепланировки нежилого 
+                                помещения
+                                </a></li>
+                            <li><a href="#">Ремонт квартир</a></li>
+                            <li><a href="#">Ремонт ресторанов</a></li>
+                            <li><a href="#">Ремонт офисов
+                            </a></li>
+                            <li><a href="#">Алмазная резка</a></li>
+                        </ul>
+                    </div>
+                  
+
+                    
+                </div>
+                <div class="item">
+                    <p>© СФЕРА 2023.  Все права защищены</p>
+                    <p><a href="#rules">Пользовательское соглашение</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+
+    <script src="../../js/swiper-bundle.min.js"></script>
+    <script src="../../js/swiper.js"></script>
+
+    <script src="../../js/popup.js"></script>
+    <script src="../../js/header.js"></script>
+    <script src="../../js/formFormat.js"></script>
+    
+    <script src="../../js/swiperDuble.js"></script>
+    <!-- <script src="js/animationProject.js"></script> -->
+    <script src="../../js/imageZoom.js"></script>
+
+</html>
